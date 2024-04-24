@@ -1,3 +1,5 @@
+/*This is a basic text based rpg game using OOP concepts,operator overloading,friend functions etc. Dont hesitate to fork this
+project and improve it.Hope you enjoy!*/
 #include <iostream>
 #include <string>
 using namespace std;
