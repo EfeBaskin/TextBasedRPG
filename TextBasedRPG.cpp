@@ -323,7 +323,8 @@ int main()
                                 cout << "Invalid choice. Exiting combat." << endl;
                                 return 0;
                         }
-                        WoodenMan.ShadowAttack(Mordo);
+                        bandit.ArrowAttack(Mordo);
+                        bandit.SwordAttack(Mordo);
                         setStats(Mordo,Mordo.getHealth(),Mordo.getStamina());
                     }
                     if (Mordo.getHealth()==0) 
